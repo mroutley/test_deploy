@@ -1,7 +1,8 @@
-baseurl = "/"
+baseurl = "http://matt.routleynet.org/"
 relativeurls = true
-languageCode = "en-us"
-title = "A Hugo website"
+enableEmoji = true
+languageCode = "en-ca"
+title = "Various Contrivances"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -15,13 +16,16 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/mroutley"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/mroutley"
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/matthew-routley-065abb77/"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "An internet wunderkammer."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
